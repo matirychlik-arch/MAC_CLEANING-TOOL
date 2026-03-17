@@ -231,7 +231,7 @@ struct GaugeCard: View {
                 .lineLimit(1)
         }
         .padding(14)
-        .background(.background.secondary)
+        .background(Color(nsColor: .controlBackgroundColor))
         .cornerRadius(12)
         .frame(maxWidth: .infinity)
     }
@@ -249,7 +249,7 @@ struct SectionCard<Content: View>: View {
             content()
         }
         .padding(14)
-        .background(.background.secondary)
+        .background(Color(nsColor: .controlBackgroundColor))
         .cornerRadius(12)
         .frame(maxWidth: .infinity, alignment: .leading)
     }

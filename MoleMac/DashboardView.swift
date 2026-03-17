@@ -233,7 +233,7 @@ struct MetricCard: View {
             }
         }
         .padding(14)
-        .background(.background.secondary)
+        .background(Color(nsColor: .controlBackgroundColor))
         .cornerRadius(12)
     }
 }
@@ -295,7 +295,7 @@ struct HardwareInfoRow: View {
             }
             .padding(14)
         }
-        .background(.background.secondary)
+        .background(Color(nsColor: .controlBackgroundColor))
         .cornerRadius(12)
     }
 }
@@ -343,7 +343,7 @@ struct GPURow: View {
             }
         }
         .padding(14)
-        .background(.background.secondary)
+        .background(Color(nsColor: .controlBackgroundColor))
         .cornerRadius(12)
     }
 }
@@ -390,7 +390,7 @@ struct ProcessTable: View {
             }
         }
         .padding(14)
-        .background(.background.secondary)
+        .background(Color(nsColor: .controlBackgroundColor))
         .cornerRadius(12)
     }
 }
