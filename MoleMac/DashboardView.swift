@@ -349,7 +349,7 @@ struct GPURow: View {
 }
 
 struct ProcessTable: View {
-    let processes: [ProcessInfo]
+    let processes: [ProcessEntry]
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
@@ -368,7 +368,7 @@ struct ProcessTable: View {
             }
             .padding(.horizontal, 12)
 
-            ForEach(processes.prefix(8), id: \.name) { proc in
+            ForEach(Array(processes.prefix(8)), id: \.name) { proc in
                 HStack {
                     Text(proc.name)
                         .font(.system(.caption, design: .monospaced))

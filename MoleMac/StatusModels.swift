@@ -17,7 +17,7 @@ struct MetricsSnapshot: Codable {
     let network: [NetworkStatus]
     let batteries: [BatteryStatus]
     let thermal: ThermalStatus
-    let topProcesses: [ProcessInfo]
+    let topProcesses: [ProcessEntry]
 
     enum CodingKeys: String, CodingKey {
         case collectedAt = "collected_at"
@@ -175,7 +175,7 @@ struct ThermalStatus: Codable {
     }
 }
 
-struct ProcessInfo: Codable {
+struct ProcessEntry: Codable {
     let name: String
     let cpu: Double
     let memory: Double
