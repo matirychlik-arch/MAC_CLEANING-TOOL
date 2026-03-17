@@ -131,7 +131,7 @@ struct CommandView: View {
             }
             Text("Press ⌘R or click Run to start")
                 .font(.caption)
-                .foregroundColor(.tertiary)
+                .foregroundColor(.secondary.opacity(0.6))
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .padding(.top, 60)
@@ -156,7 +156,7 @@ struct CommandView: View {
             } else {
                 Text("Ready")
                     .font(.caption)
-                    .foregroundColor(.tertiary)
+                    .foregroundColor(.secondary.opacity(0.6))
             }
             Spacer()
             if !runner.output.isEmpty && !runner.isRunning {
