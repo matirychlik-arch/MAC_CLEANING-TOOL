@@ -96,6 +96,8 @@ struct ContentView: View {
                 DashboardView()
             case .status:
                 StatusView()
+            case .analyze:
+                AnalyzeView()
             default:
                 CommandView(feature: selection)
             }
