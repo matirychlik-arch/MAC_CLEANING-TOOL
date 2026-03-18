@@ -15,6 +15,7 @@
 		AC600000000000000000AC60 /* CommandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB600000000000000000AB60 /* CommandView.swift */; };
 		AC700000000000000000AC70 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB700000000000000000AB70 /* StatusView.swift */; };
 		AC800000000000000000AC80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB800000000000000000AB80 /* Assets.xcassets */; };
+		ACA00000000000000000ACA0 /* AnalyzeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA00000000000000000ABA0 /* AnalyzeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AB700000000000000000AB70 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
 		AB800000000000000000AB80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB900000000000000000AB90 /* MoleMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MoleMac.entitlements; sourceTree = "<group>"; };
+		ABA00000000000000000ABA0 /* AnalyzeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				AB500000000000000000AB50 /* DashboardView.swift */,
 				AB600000000000000000AB60 /* CommandView.swift */,
 				AB700000000000000000AB70 /* StatusView.swift */,
+				ABA00000000000000000ABA0 /* AnalyzeView.swift */,
 				AB300000000000000000AB30 /* MoleRunner.swift */,
 				AB400000000000000000AB40 /* StatusModels.swift */,
 				AB800000000000000000AB80 /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 				AC500000000000000000AC50 /* DashboardView.swift in Sources */,
 				AC600000000000000000AC60 /* CommandView.swift in Sources */,
 				AC700000000000000000AC70 /* StatusView.swift in Sources */,
+				ACA00000000000000000ACA0 /* AnalyzeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
